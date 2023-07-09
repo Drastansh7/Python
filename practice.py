@@ -344,6 +344,34 @@ def sumx():
 sumx()
 
 
+# 
+# 
+# 
+# 
+
+
+def max_num():
+    user_input = int(input("Enter a number: "))
+
+    list_even = []
+    list_odd = []
+
+    for digit in str(user_input):
+        if int(digit) % 2 == 0:
+            list_even.append(int(digit))
+
+        elif int(digit) % 2 != 0:
+            list_odd.append(int(digit))
+
+    if max(list_even) > max(list_odd):
+        print(max(list_even))
+    elif max(list_odd) > max(list_even):
+        print(max(list_odd))
+
+
+max_num()
+
+
 
 
 
