@@ -1,0 +1,76 @@
+# def Traverse():
+#     print("traverse")
+# def Insert():
+#     print("insert")
+# def Delete():
+#     print("delete")
+# def Update():
+#     print("update")
+# def Search():
+#     print("search")
+#
+# while True:
+#     user_input = int(input("Enter number for : 1) Traverse , 2)Insert , 3)Delete , 4)Update , 5) Search "))
+#     if user_input == 1:
+#         Traverse()
+#     elif user_input == 2:
+#         Insert()
+#     elif user_input == 3:
+#         Delete()
+#     elif user_input == 4:
+#         Update()
+#     elif user_input == 5:
+#         Search()
+
+list_x = [ 2,2,3,5,8,2,9,10]
+
+# for numbers in list_x:
+#     print(numbers)
+
+# user_input = int(input("Enter a number: "))
+# list_x.append(user_input)
+# print(list_x)
+
+# user_input = int(input("Enter a number: "))
+# user_pos = int(input("enter a position: "))
+#
+# if user_pos < len(list_x):
+#     list_x.insert(user_pos, user_input)
+#     print(list_x)
+# else:
+#     print("position is out of bounds")
+
+# user_input = int(input("Enter a number: "))
+#
+# if user_input in list_x:
+#     list_x.remove(user_input)
+#     print(list_x)
+# else:
+#     print("number is not in the list")
+
+# list_x.pop()
+# print(list_x)
+
+# del list_x
+# print(list_x)
+
+# list_y = list_x.copy()
+# print(list_y)
+
+
+# list_x.clear()
+# print(list_x)
+
+
+
+
+# print(list_x.count(2))
+
+# list_x.sort()
+# print(list_x)
+
+# list_x.extend([2])
+# print(list_x)
+
+# list_x.index(2)
+# print(list_x.index(9))
